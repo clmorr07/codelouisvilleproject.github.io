@@ -49,13 +49,13 @@ a {
 .name,
 .main-nav li {
     text-align: center;
-    background: white;
+    background: #939797;
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
 .main-nav a {
-    font-size: 1em;
+    font-size: .5em;
 }
 .main-nav a:hover {
     color: aqua;
@@ -78,8 +78,6 @@ a {
     text-align: center;
     padding-top: .5em;
     padding-bottom: .5em;
-    margin-bottom: 40px;
-    font-size: 20px;
 }
 
 .main-footer {
