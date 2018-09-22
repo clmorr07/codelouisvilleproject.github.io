@@ -9,7 +9,6 @@
 body {
     line-height: 1.6;
     color: #3a3a3a;
-
 }
 
 h1 {
@@ -17,9 +16,9 @@ h1 {
     margin-top: 0;
     font-size: 50px;
 }
+
 p {
     text-align: justify;
-
 }
 
 h2,
@@ -29,13 +28,14 @@ p {
     }
 
 a { 
-    color: #fff;
+    color: #black;
     text-decoration: none;
 }
 
 form {
     display: block;
 }
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -48,22 +48,26 @@ form {
 }
 
 .name,
-.main-nav li {
+.main-nav li,
+.contact-form li{
     text-align: center;
     background: #939797;
     margin-top: 6px;
     margin-bottom: 6px;
 }
-
+.contact-form,
 .main-nav a {
     font-size: .5em;
 }
 .main-nav a:hover {
     color: aqua;
 }
-
+.contact-form a:hover {
+    color: aqua;
+}
 .name a,
-.main-nav a {
+.main-nav a,
+.contact-form a{
     padding: 15px 20px;
     display: block center;
 }
@@ -87,6 +91,11 @@ form {
     background: #939797;
 }
 
+ol,
+ ul {margin: 0;
+padding: 0;
+list-style:none;
+}
 /*---- Media Queries ---- */
 @media (min-width:769px) {
     .wrap {
@@ -99,7 +108,8 @@ form {
     }
 
     .name,
-    .main-nav li {
+    .main-nav li,
+    .contact-form li {
         display: inline-block;
     }
 
