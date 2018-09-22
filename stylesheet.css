@@ -1,3 +1,4 @@
+theme: jekyll-theme-time-machine
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -7,7 +8,7 @@
 }
 
 body {
-	line-height: 1.6;
+    line-height: 1.6;
     color: #3a3a3a;
 
 }
@@ -15,6 +16,7 @@ body {
 h1 {
     text-align: center
     margin-top: 0;
+    font-size: 20px;
 }
 p {
     text-align: justify
@@ -24,9 +26,13 @@ p {
 h2 {
     text-align: center;
     }
+ p {
+    text-align: justify
+
+}
 a { 
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* ================================= 
@@ -36,20 +42,20 @@ a {
 /* ----Navigation ---- */
 
 .name {
-    font-size: 1.5em;
+    font-size: .5em;
     margin: 0;
 }
 
 .name,
 .main-nav li {
     text-align: center;
-    background: white;
+    background: #939797;
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
 .main-nav a {
-    font-size: 1em;
+    font-size: .5em;
 }
 .main-nav a:hover {
     color: aqua;
@@ -70,16 +76,14 @@ a {
 .main-header {
     background: #939797;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-bottom: 40px;
-    font-size: 100px;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
 
 .main-footer {
     text-align: center;
-	padding: 2em 0;
-	background: #939797;
+    padding: 2em 0;
+    background: #939797;
 }
 
 /*---- Media Queries ---- */
@@ -102,7 +106,7 @@ a {
         display: block;
     }
     .name {
-        width: 250px;
+        width: 100px;
     }
 }
 
