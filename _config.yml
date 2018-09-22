@@ -1,1 +1,112 @@
 theme: jekyll-theme-time-machine
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+    color: #3a3a3a;
+
+}
+
+h1 {
+    text-align: center
+    margin-top: 0;
+}
+p {
+    text-align: justify
+
+}
+
+h2 {
+    text-align: center;
+    }
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ----Navigation ---- */
+
+.name {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.name,
+.main-nav li {
+    text-align: center;
+    background: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.main-nav a {
+    font-size: 1em;
+}
+.main-nav a:hover {
+    color: aqua;
+}
+
+.name a,
+.main-nav a {
+    padding: 15px 20px;
+    display: block;
+}
+/* ---- Layout Containers ---- */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-header {
+    background: #939797;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 40px;
+    font-size: 100px;
+}
+
+.main-footer {
+    text-align: center;
+	padding: 2em 0;
+	background: #939797;
+}
+
+/*---- Media Queries ---- */
+@media (min-width:769px) {
+    .wrap {
+        min-height: calc(100vh - 89px);
+    }
+    .container {
+        width: 75%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .name,
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .form {
+        display: block;
+    }
+    .name {
+        width: 250px;
+    }
+}
+
+
+
+/* ---- Page Elements ---- */
