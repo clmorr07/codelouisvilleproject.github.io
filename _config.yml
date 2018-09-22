@@ -16,6 +16,7 @@ body {
 h1 {
     text-align: center
     margin-top: 0;
+    font-size: 20px;
 }
 p {
     text-align: justify
@@ -25,6 +26,10 @@ p {
 h2 {
     text-align: center;
     }
+ p {
+    text-align: justify
+
+}
 a { 
     color: #fff;
     text-decoration: none;
@@ -71,8 +76,8 @@ a {
 .main-header {
     background: #939797;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
     margin-bottom: 40px;
     font-size: 20px;
 }
@@ -103,7 +108,7 @@ a {
         display: block;
     }
     .name {
-        width: 250px;
+        width: 100px;
     }
 }
 
