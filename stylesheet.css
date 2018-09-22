@@ -62,7 +62,7 @@ a {
 .name a,
 .main-nav a {
     padding: 15px 20px;
-    display: block;
+    display: block center;
 }
 /* ---- Layout Containers ---- */
 
@@ -76,6 +76,7 @@ a {
     text-align: center;
     padding-top: .5em;
     padding-bottom: .5em;
+    font-size: 50px;
 }
 
 .main-footer {
