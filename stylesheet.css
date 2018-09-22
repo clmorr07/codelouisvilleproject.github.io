@@ -33,6 +33,9 @@ a {
     text-decoration: none;
 }
 
+form {
+    display: block;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -101,9 +104,7 @@ a {
         display: inline-block;
     }
 
-    .form {
-        display: block;
-    }
+
     .name {
         width: 100px;
     }
