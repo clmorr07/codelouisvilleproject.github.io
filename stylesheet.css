@@ -32,9 +32,6 @@ a {
     text-decoration: none;
 }
 
-form {
-    display: block;
-}
 
 /* ================================= 
   Base Layout Styles
@@ -54,6 +51,7 @@ form {
     background: #939797;
     margin-top: 6px;
     margin-bottom: 6px;
+    width: 75%
 }
 .contact-form,
 .main-nav a {
