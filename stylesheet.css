@@ -377,7 +377,9 @@ h1 {
 }
 
 h2 {
-  font-size: .85em;
+  font-size: 1em;
+  text-align: center;
+  margin-bottm: 
 }
 
 p {
@@ -404,7 +406,7 @@ a:link {
 }
 
 a:visited {
-  color: orange;
+  color: white;
 }
 
 a:focus {
@@ -424,19 +426,19 @@ a:active {
 
 
 .main-nav {
-  font-size: 40px;
+  font-size: 10%;
   width: 100%
   box-sizing: border box;
   background: grey;
 }
 
 .projects {
-  font-size: 40px;
-  width: 100%
+  font-size: 10%
   box-sizing: border box;
   background: white;
   padding: 10px;
   border: 2px solid black;
+  margin: 5% auto;
 }
 
 ul {
