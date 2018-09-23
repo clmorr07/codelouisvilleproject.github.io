@@ -466,12 +466,6 @@ li {
   border-radius: 10px;
 }
 
-.flex-container {
-  display: flex;
-  height: 600px;
-  align-content: space-between;
-  align-items: center;
-}
 
 .work{
   font-weight: bolder;
