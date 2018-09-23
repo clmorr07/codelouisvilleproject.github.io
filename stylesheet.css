@@ -474,7 +474,6 @@ div {
 .flex-container {
   display: flex;
   height: 600px;
-  flex-wrap: wrap;
   align-content: space-between;
   align-items: center;
 }
