@@ -377,7 +377,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 3.5em;
   text-align: center;
   line-height: 2;
 }
@@ -446,8 +446,8 @@ li {
 .work{
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 20px;
   line-height: 1;
+  text-align: center;
 }
 
 .main-nav {
