@@ -389,10 +389,10 @@ p {
 
 ul,
 li {
-  font-size: 10px;
+  font-size: 20px;
   width: 100%
   box-sizing: border box;
-  background-color: grey;
+  background: grey;
 }
 
 a {
@@ -409,6 +409,7 @@ a {
 
 a:link {
   color: red;
+  background: grey;
 }
 
 a:visited {
@@ -439,6 +440,10 @@ li {
   display: inline
 }
 
+.main-header {
+  background-image: linear-gradient(to bottom, black, white 50%, grey);
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -451,7 +456,6 @@ li {
 }
 
 .main-header {
-  background-image: linear-gradient(to bottom, black, white 50%, grey);
   text-align: center;
   padding-top: .5em;
   font-size: 50px;
