@@ -379,15 +379,14 @@ h1 {
 h2 {
   font-size: 1em;
   text-align: center;
-  margin-bottm: 
 }
 
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  text-align: justify;
-  margin-bottom: 10%;
+  text-align: center;
+  margin-bottom: 20%;
 }
 
 a {
@@ -427,14 +426,14 @@ a:active {
 
 
 .main-nav {
-  font-size: 30%;
+  font-size: 30px;
   width: 100%;
   box-sizing: border box;
   background: grey;
 }
 
 .projects {
-  font-size: 10%;
+  font-size: 30px;
   box-sizing: border box;
   background: white;
   padding: 10px;
@@ -449,7 +448,7 @@ ul {
 }
 
 li {
-  display: inline
+  display: inline;
 }
 
 .main-header {
