@@ -477,7 +477,7 @@ li {
 
 .projects {
   font-size: 2em;
-  box-sizing: border box;
+  box-sizing: border-box;
   background: white;
   padding: 10px;
   border: 2px dashed grey;
