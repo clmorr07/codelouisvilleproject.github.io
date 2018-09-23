@@ -377,6 +377,7 @@ h1 {
  }
 
 h3 {
+  margin-top: 0;
   font-size: 3.5em;
   text-align: center;
   line-height: 2;
@@ -473,7 +474,6 @@ li {
 
 .main-header {
   background-image: linear-gradient(to bottom, black, white 50%, grey);
-  margin-bottom: 0;
 }
 
 /* ================================= 
