@@ -362,7 +362,7 @@ list-style:none;
 }
 
 h1,
-h2 {
+h3 {
   font-weight: normal, bold;
   text-transform: uppercase;
 }
@@ -376,7 +376,7 @@ h1 {
   text-align: center;
  }
 
-h2 {
+h3 {
   font-size: 3.5em;
   text-align: center;
   line-height: 2;
