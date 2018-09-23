@@ -372,9 +372,9 @@ h1 {
              0px 4px 1px rgba(0,0,0,0.5),
              4px 4px 5px rgba(0,0,0,0.7),
              0px 0px 7px rgba(0,0,0,0.4);
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-align: center;
-}
+ }
 
 h2 {
   font-size: 3.5em;
@@ -441,6 +441,11 @@ li {
   line-height: 2;
   text-align: center;
   font-size: 20px;
+  text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(0,0,0,0.5),
+             4px 4px 5px rgba(0,0,0,0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+  font-size: .85em;
 }
 
 .work{
@@ -451,13 +456,14 @@ li {
 }
 
 .main-nav {
-  font-size: 100px;
+  font-size: 1em;
   width: 100%;
   background: grey;
+  margin-top: 0 auto;
 }
 
 .projects {
-  font-size: 100px;
+  font-size: 1em;
   box-sizing: border box;
   background: white;
   padding: 10px;
