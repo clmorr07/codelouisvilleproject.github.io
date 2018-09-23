@@ -389,6 +389,7 @@ p {
   text-align: justify;
   margin-bottom: 20%;
   font-size: 20px;
+  padding: 0% 10%;
 }
 
 a {
@@ -424,8 +425,31 @@ a:hover {
 a:active {
   background: blue;
   color: violet;
+}      
+                
+ul {
+  padding: 0;
+  width: 100%;
+  text-align:center;
 }
 
+li {
+  display: inline;
+}
+
+.desc {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 2;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.work{
+  font-weight: normal, bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
 
 .main-nav {
   font-size: 30%;
