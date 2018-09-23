@@ -376,10 +376,6 @@ h1 {
   text-align: center;
 }
 
-h1 {
-  background-color: linear-gradient(to bottom, black, white 50%, grey);
-}
-
 h2 {
   font-size: .85em;
 }
@@ -388,7 +384,7 @@ p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
 }
 
 ul,
@@ -396,6 +392,7 @@ li {
   font-size: 10px;
   width: 100%
   box-sizing: border box;
+  background-color: grey;
 }
 
 a {
@@ -454,7 +451,7 @@ li {
 }
 
 .main-header {
-  background: #939797;
+  background-image: linear-gradient(to bottom, black, white 50%, grey);
   text-align: center;
   padding-top: .5em;
   font-size: 50px;
@@ -464,11 +461,6 @@ li {
   text-align: center;
   padding: 2em 0;
   background: #939797;
-}
-
-.contact-form {
-  display: block;
-  width: 100%;
 }
 
 /*---- Media Queries ---- */
