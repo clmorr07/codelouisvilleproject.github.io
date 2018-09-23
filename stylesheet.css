@@ -386,7 +386,8 @@ p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  text-align: center;
+  text-align: justify;
+  margin-bottom: 10%;
 }
 
 a {
@@ -426,14 +427,14 @@ a:active {
 
 
 .main-nav {
-  font-size: 10%;
-  width: 100%
+  font-size: 30%;
+  width: 100%;
   box-sizing: border box;
   background: grey;
 }
 
 .projects {
-  font-size: 10%
+  font-size: 10%;
   box-sizing: border box;
   background: white;
   padding: 10px;
@@ -444,6 +445,7 @@ a:active {
 ul {
   padding: 0;
   width: 100%;
+  text-align:center;
 }
 
 li {
