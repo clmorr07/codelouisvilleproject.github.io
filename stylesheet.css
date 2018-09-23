@@ -386,13 +386,14 @@ p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 2;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 20%;
+  font-size: 20px;
 }
 
 a {
   outline: none;
-  text-decoration: underlined;
+  text-decoration: underline;
   padding: 2px 1px 0;
   display: inline-block;
   width: 19.5%;
@@ -427,14 +428,14 @@ a:active {
 
 
 .main-nav {
-  font-size: 30px;
+  font-size: 30%;
   width: 100%;
   box-sizing: border box;
   background: grey;
 }
 
 .projects {
-  font-size: 30px;
+  font-size: 30%;
   box-sizing: border box;
   background: white;
   padding: 10px;
