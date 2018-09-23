@@ -379,19 +379,20 @@ h1 {
 h2 {
   font-size: 1em;
   text-align: center;
+  line-height: 2;
 }
 
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 2;
   text-align: center;
   margin-bottom: 20%;
 }
 
 a {
   outline: none;
-  text-decoration: none;
+  text-decoration: underlined;
   padding: 2px 1px 0;
   display: inline-block;
   width: 19.5%;
@@ -437,18 +438,8 @@ a:active {
   box-sizing: border box;
   background: white;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px dashed grey;
   margin: 5% auto;
-}
-
-ul {
-  padding: 0;
-  width: 100%;
-  text-align:center;
-}
-
-li {
-  display: inline;
 }
 
 .main-header {
