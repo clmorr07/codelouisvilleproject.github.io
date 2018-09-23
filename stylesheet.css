@@ -467,6 +467,7 @@ li {
   border: 2px solid grey;
   border-radius: 10px;
   height: 400px;
+  align-content: start;
 }
 
 
