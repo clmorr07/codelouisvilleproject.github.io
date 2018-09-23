@@ -461,7 +461,7 @@ li {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1;
   text-align: center;
-  font-size: 16px;
+  font-size: 25px;
   border: 2px solid grey;
   border-radius: 10px;
 }
@@ -471,7 +471,6 @@ li {
   height: 600px;
   flex-wrap: wrap;
   align-content: space-between;
-  justify-content: center;
   align-items: center;
 }
 
