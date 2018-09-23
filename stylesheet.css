@@ -448,8 +448,14 @@ li {
   font-size: .75em;
 }
 
-.box {
+.box1 {
   float: left;
+  width: 50%;
+  padding: 50px;
+}
+
+.box2 {
+  float: right;
   width: 50%;
   padding: 50px;
 }
