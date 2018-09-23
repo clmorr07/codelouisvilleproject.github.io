@@ -377,8 +377,8 @@ h1 {
 }
 
 h1 {
-  background-color: grey;
-  background-image: linear-gradient(to bottom, black, white 50%, grey);
+  margin: 0 auto;
+  background-color: linear-gradient(to bottom, black, white 50%, grey);
 }
 
 h2 {
