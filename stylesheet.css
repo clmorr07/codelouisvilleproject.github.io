@@ -402,7 +402,7 @@ a {
   text-decoration: underline;
   padding: 2px 1px 0;
   display: inline-block;
-  width: 19.5%;
+  width: 25%;
   text-align: center;
   line-height: 3;
   color: black;
@@ -479,6 +479,8 @@ li {
   width: 100%;
   background: grey;
   margin-top: 0 auto;
+  text-align: center;
+  padding: 0% 10%;
 }
 
 .projects {
