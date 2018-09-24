@@ -407,7 +407,7 @@ a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
-  display: inline-block;
+  display: inline;
   width: 19.5%;
   line-height: 1;
   color: black;
@@ -443,7 +443,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline;
   width: 100%;
   text-align: center;
 }
