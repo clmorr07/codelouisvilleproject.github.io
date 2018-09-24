@@ -399,12 +399,12 @@ p {
 
 a {
   outline: none;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 2px 1px 0;
   display: inline-block;
-  width: 25%;
+  width: 15%;
   text-align: center;
-  line-height: 3;
+  line-height: 1;
   color: black;
 }
 
