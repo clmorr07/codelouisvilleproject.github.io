@@ -386,6 +386,10 @@ h3 {
   line-height: 2;
 }
 
+h2 {
+   padding: 0 15px 0 0;
+}
+
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
