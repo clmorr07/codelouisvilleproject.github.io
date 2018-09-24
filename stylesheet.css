@@ -450,16 +450,6 @@ li {
 }
 
 
-.box2 {
-  width: 50%;
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1;
-  border: 2px solid grey;
-  border-radius: 10px;
-  }
-
-
 .work{
   font-weight: bolder;
   text-transform: uppercase;
@@ -485,11 +475,9 @@ li {
 
 .projects {
   font-size: 1em;
-  box-sizing: border-box;
   background: white;
   padding: 10px;
   border: 2px dashed grey;
-  text-align: center;
   margin: 5% auto;
 }
 
