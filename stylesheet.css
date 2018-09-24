@@ -468,7 +468,6 @@ li {
   background: grey;
   margin-top: 0 auto;
   text-align: center;
-  padding: 0% 10%;
 }
 
 .projects {
@@ -476,6 +475,7 @@ li {
   background: white;
   border: 2px dashed grey;
   width: 100%;
+  heighy: 200;
 }
 
 .main-header {
