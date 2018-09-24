@@ -387,11 +387,11 @@ h3 {
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
-  line-height: 2;
-  text-align: justify;
+  line-height: 1.5;
+  text-align: center;
   margin-bottom: 15%;
   margin-top: 0;
-  font-size: 25px;
+  font-size: .75em;
   padding: 0% 10%;
   border: 2px solid grey;
   border-radius: 10px;
