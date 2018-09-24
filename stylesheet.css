@@ -439,11 +439,13 @@ a:active {
                 
 ul {
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 li {
   display: inline;
+  width: 100%;
+  text-align: center;
 }
 
 .desc {
