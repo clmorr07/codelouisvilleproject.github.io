@@ -477,7 +477,7 @@ li {
   font-size: 1em;
   background: white;
   border: 2px dashed grey;
-  margin: 5% auto;
+  margin: 5%;
 }
 
 .main-header {
@@ -498,6 +498,7 @@ li {
 .main-header {
   text-align: center;
   padding-top: .5em;
+  margin-bottom: 10%;
   
 }
 
