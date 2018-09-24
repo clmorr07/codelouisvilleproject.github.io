@@ -372,9 +372,8 @@ h1 {
              0px 4px 1px rgba(0,0,0,0.5),
              4px 4px 5px rgba(0,0,0,0.7),
              0px 0px 7px rgba(0,0,0,0.4);
-  font-size: 2.5em;
+  font-size: 10em;
   text-align: center;
-  margin-top: -5%;
  }
 
 h3 {
@@ -402,8 +401,7 @@ a {
   text-decoration: none;
   padding: 2px 1px 0;
   display: inline-block;
-  width: 15%;
-  text-align: center;
+  width: 19.5%;
   line-height: 1;
   color: black;
 }
@@ -498,6 +496,8 @@ li {
 .main-header {
   text-align: center;
   padding-top: .5em;
+  line-height: 18.4px;
+  height: 100%;
 }
 
 .main-footer {
