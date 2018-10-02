@@ -403,7 +403,7 @@ p {
   border-radius: 10px;
 }
 
-a {
+.main nav a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
@@ -412,26 +412,26 @@ a {
   color: black;
 }
 
-a:link {
+.main nav a:link {
   color: red;
   background: grey;
 }
 
-a:visited {
+.main nav a:visited {
   color: white;
 }
 
-a:focus {
+.main nav a:focus {
   border-bottom: 1px solid;
   background: yellow;
 }
 
-a:hover {
+.main nav a:hover {
   border-bottom: 1px solid;     
   background: green;
 }
 
-a:active {
+.main nav a:active {
   background: blue;
   color: violet;
 }      
