@@ -408,7 +408,6 @@ a {
   text-decoration: none;
   padding: 2px 1px 0;
   display: inline;
-  width: 19.5%;
   line-height: 1;
   color: black;
 }
@@ -444,7 +443,6 @@ ul {
 
 li {
   display: inline;
-  width: 100%;
   text-align: center;
 }
 
@@ -484,7 +482,7 @@ li {
   background: white;
   border: 2px dashed grey;
   width: 100%;
-  heighy: 200;
+  height: 200;
 }
 
 .main-header {
