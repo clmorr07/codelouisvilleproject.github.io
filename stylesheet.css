@@ -144,6 +144,7 @@ li {
   background-image: linear-gradient(to bottom, black, white 50%, grey);
 }
 
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -191,7 +192,8 @@ li {
   margin-right: 25px;
   margin-bottom: 25px;
   padding: 10px;
-  width: 300px;
+  width: 100px;
+  height: 150px;
 
 }
 /* ---- Page Elements ---- */
