@@ -147,7 +147,6 @@ li {
   display: inline-block;
   width: 50%; 
   margin-right: -4px;
-  vertical-align: bottom;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -195,5 +194,8 @@ li {
 
 .img {
   float: left;
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 25px;
 }
 /* ---- Page Elements ---- */
