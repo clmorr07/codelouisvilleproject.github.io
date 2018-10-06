@@ -143,13 +143,6 @@ li {
 .main-header {
   background-image: linear-gradient(to bottom, black, white 50%, grey);
 }
-.col {    
-  display: inline-block;
-  width: 50%; 
-  margin-right: -4px;
-  padding-left: 1em;
-  padding-right: 1em;
-}
 
 /* ================================= 
   Base Layout Styles
