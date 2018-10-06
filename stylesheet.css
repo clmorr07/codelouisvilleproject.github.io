@@ -147,7 +147,7 @@ li {
   display: inline-block;
   width: 50%; 
   margin-right: -4px;
-  vertical-align: top;
+  vertical-align: bottom;
   padding-left: 1em;
   padding-right: 1em;
 }
