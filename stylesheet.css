@@ -193,4 +193,7 @@ li {
     ul.topnav li {float: none;}
 }
 
+.img {
+  float: left;
+}
 /* ---- Page Elements ---- */
