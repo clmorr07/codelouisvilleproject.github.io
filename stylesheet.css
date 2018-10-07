@@ -59,15 +59,18 @@ p {
 .main nav a {
   outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+  padding: 10px 15px;
+  text-align: center;
   display: inline;
   line-height: 1;
   color: black;
+  font-size: .95em;
+  text-transform: uppercase;
 }
 
 .main nav a:link {
   color: red;
-  background: grey;
+  background: rgb(236, 235, 235);
 }
 
 .main nav a:visited {
