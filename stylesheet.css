@@ -187,7 +187,6 @@ li {
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
-}
 
 .bio-img {
   float: left;
@@ -205,6 +204,6 @@ li {
   content: "";
   display: table;
   clear: both;
-
+}
 }
 /* ---- Page Elements ---- */
