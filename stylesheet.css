@@ -174,8 +174,8 @@ li {
         max-width: 1000px;
     }
     h3 p {
-      padding-left: 30%;
-      padding-right: 30%;
+      margin-left: 20%;
+      margin-right: 20%;
     }
     .bio-img {
       float: left;
