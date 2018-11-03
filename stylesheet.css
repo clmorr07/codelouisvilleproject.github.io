@@ -173,6 +173,10 @@ li {
         margin: 0 auto;
         max-width: 1000px;
     }
+    h3 {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
 }
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
