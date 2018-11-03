@@ -190,6 +190,7 @@ li {
       border: 1px solid #CCC;
       border-radius: 1em;
       margin-bottom:10px;
+      display: table;
     }
 
 }
