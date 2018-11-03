@@ -138,6 +138,17 @@ li {
   height: 200;
 }
 
+.bio-img {
+  float: left;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  max-width: 15%;
+  height: auto;
+  width: auto;
+
+}
 
 
 
@@ -176,33 +187,12 @@ li {
         max-width: 1000px;
     }
 
-    .bio-img {
-      float: left;
-      margin-top: 5px;
-      margin-right: 15px;
-      margin-bottom: 15px;
-      padding: 10px;
-      max-width: 15%;
-      height: auto;
-      width: auto;
-    
-    }
 }
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
-.bio-img {
-  float: left;
-  margin-top: 5px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  padding: 10px;
-  max-width: 15%;
-  height: auto;
-  width: auto;
 
-}
 
 .clearfix::after {
   content: "";
