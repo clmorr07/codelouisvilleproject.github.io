@@ -14,7 +14,7 @@
         </header>
         <nav>
           <ul class="main-nav">
-            <li class="main-nav"><a class href="#Home">HOME</a></li>
+            <li class="main-nav"><a href="#Home">HOME</a></li>
             <li class="main-nav"><a href="#Bio">BIO</a></li>
             <li class="main-nav"><a href="#Portfolio">PORTFOLIO</a></li>
             <li class="main-nav"><a href="#contact">CONTACT</a></li>
@@ -25,13 +25,14 @@
           <input type="submit" value="Go!">
         </form>
         <main>
-          <div class="container clearfix">
+          <div class="container clearfix" id="Bio">
             <h3>BIO</h3>   
               <img class="bio-img" src="BioPic.jpg"
                 alt="Pic of myself">
                 <p> After completing my first session with Code Louisville I am pursuing a career as a Junior Frontend Web developer. Prior to Code Louisville I worked as a Project Manager for a consulting firm that offers class action services providing corporate restructuring services such as pre-filing preperation, public  securities, technology, and other strategic communication services. It has been a personal goal of mine to learn to code. Through Code Louisville I have learned HTML, CSS, and JavaScript. I am going to further my coding education by starting the Backend Web Development track. My end goal is to obtain a job in APP Development.</p>
           </div>      
             <article>
+              <div id="Portfolio">
               <h3>PORTFOLIO</h3>
                 <p class="work">Here is a collection of my current completed projects where I have used HTML, CSS, and some JavaScript</p>
                   <ul class="projects">
@@ -51,10 +52,12 @@
                         alt="Engagement Pic"
                         weight="150"
                         height="175"><a href="">Wedding Website</a></li>
-                  </ul>                
+                  </ul>
+                </div>               
               </article>
            </main>
-          </div>   
+          </div> 
+           <div id="contact">
             <h3>CONTACT ME</h3>
               <form action="" method="post">
                 <div>
@@ -115,7 +118,8 @@
                     button {
                       margin-left: .5em;
                             }
-                  </style>         
+                  </style>
+                </div>         
               <footer class="main-footer">
                 <span>&copy;Copyright 2018 by Courtney Morrison. All rights reserved.</span>
               </footer>
