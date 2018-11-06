@@ -3,9 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Courtney Morrison (BIO)</title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="JSstuff.js" ></script>  
     </head>
     <body>
+     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <div class="wrap">
         <header class="main-header">
           <div class="container">
@@ -13,12 +15,17 @@
             <h2 class="desc" style="font-size:2.5vw;"><strong>Aspiring Junior FrontEnd Web-Developer</strong></h2>
         </header>
         <nav>
-          <ul class="main-nav">
-            <li class="main-nav"><a href="#Home">HOME</a></li>
+         <div class="topnav" id="myTopnav">
+          <ul>
+            <li class="main-nav"><a href="#Home" class="active">HOME</a></li>
             <li class="main-nav"><a href="#Bio">BIO</a></li>
             <li class="main-nav"><a href="#Portfolio">PORTFOLIO</a></li>
             <li class="main-nav"><a href="#contact">CONTACT</a></li>
-          </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+             </ul>
+            </div>
         </nav>
         <form>
           <input type="search" name="q" placeholder="Search query">
@@ -36,22 +43,28 @@
               <h3>PORTFOLIO</h3>
                 <p class="work">Here is a collection of my current completed projects where I have used HTML, CSS, and some JavaScript</p>
                   <ul class="projects">
-                    <li><img src="ladyssake.jpg"
-                        alt="Nonprofit Logo"
+                   <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                    <li><img id="myImg" src="ladyssake.jpg"
+                        alt="All women have a right to feel dignified, all month long."
                         weight="150"
                         height="175" ><a href="">For Lady's Sake</a></li>
-                    <li><img src="songbird.jpeg"
+                    <li><img id="myImg" src="songbird.jpeg"
                         alt="Singer Logo"
                         weight="150"
                         height="175" ><a href="">Songbird Entertainment</a></li>
-                    <li><img src="jesselees.jpg"
-                        alt="Band profile pic"
+                    <li><img id="myImg" src="jesselees.jpg"
+                        alt="Neo-Soul Rock Bank"
                         weight="150"
                         height="175" ><a href="">The Jesse Lees</a></li>
-                    <li><img src="wedding.jpg"
-                        alt="Engagement Pic"
+                    <li><img id="myImg" 
+                    src="wedding.jpg"
+                        alt="#GIVEMESOMEMORRISON"
                         weight="150"
                         height="175"><a href="">Wedding Website</a></li>
+                      </div>
                   </ul>
                 </div>               
               </article>
@@ -120,7 +133,7 @@
                       margin-left: .5em;
                             }
                   </style>
-                </div>         
+                </div> 
               <footer class="main-footer">
                 <span>&copy;Copyright 2018 by Courtney Morrison. All rights reserved.</span>
               </footer>
