@@ -283,8 +283,7 @@ p {
   padding: 8px 12px;
   position: absolute;
   top: 25%;
-  left: 25%;
-  right: 25%;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -324,7 +323,9 @@ img.hover-shadow {
         max-width: 1000px;
     }
 
-
+    .topnav .icon {
+      display: none;
+    }
 
 }
 
@@ -335,10 +336,8 @@ img.hover-shadow {
       display: block;
     }
 
-    .topnav .icon {
-      display: none;
-    }
-    
+
+
     .projects ul {
       display: inline;
     
