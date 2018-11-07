@@ -280,6 +280,7 @@ p {
 .numbertext {
   color: #f2f2f2;
   font-size: 20px;
+  text-align: justify;
   padding: 8px 12px;
   position: absolute;
   top: 0;
