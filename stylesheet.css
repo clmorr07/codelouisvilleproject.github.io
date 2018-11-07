@@ -334,6 +334,11 @@ img.hover-shadow {
       float: right;
       display: block;
     }
+
+    .projects ul {
+      display: inline;
+    
+    }
   }
 
   @media screen and (max-width: 700px) {
@@ -348,10 +353,7 @@ img.hover-shadow {
       display: block;
       text-align: left;
     }
-    .projects {
-      display: inline;
-    
-    }
+
   }
 
 .clearfix::after {
