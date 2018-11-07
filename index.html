@@ -46,50 +46,89 @@
               <h3>PORTFOLIO</h3>
                 <p class="work">Here is a collection of my current completed projects where I have used HTML, CSS, and some JavaScript</p>
                    <ul class="projects">
-                    <img id="myImg" src="ladyssake.jpg"
-                        alt="All women have a right to feel dignified, all month long."
+                      <div class="row">
+                          <div class="column">
+                    <li><img id="myImg" src="ladyssake.jpg"
+                        alt="For Ladys Sake"
                         weight="150"
-                        height="175" >
-                        <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                          </div>
-                        <a href="">For Lady's Sake</a>
-                    <img id="myImg" src="songbird.jpeg"
-                        alt="Songbird Entertainment"
+                        height="175"
+                        style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                     </div>
+                        <a href="">For Lady's Sake</a></li>
+                        <div class="column">
+                        <li><img id="myImg" src="songbird.jpeg"
+                        alt="Singer Logo"
                         weight="150"
-                        height="175" >
-                        <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                          </div>
-                        <a href="">Songbird Entertainment</a>
-                    <img id="myImg" src="jesselees.jpg"
+                        height="175" 
+                        style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                      </div>
+                        <a href="">Songbird Entertainment</a></li>
+                        <div class="column">
+                        <li><img id="myImg" src="jesselees.jpg"
                         alt="Neo-Soul Rock Bank"
                         weight="150"
-                        height="175" >
-                        <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                          </div>
-                        <a href="">The Jesse Lees</a>
-                    <img id="myImg" 
+                        height="175" 
+                        style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                      </div>
+                        <a href="">The Jesse Lees</a></li>
+                        <div class="column">
+                        <li><img id="myImg" 
                     src="wedding.jpg"
                         alt="#GIVEMESOMEMORRISON"
                         weight="150"
-                        height="175">
-                        <div id="myModal" class="modal">
-                            <span class="close">&times;</span>
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                          </div>
-                        <a href="">Wedding Website</a>
+                        height="175"
+                        style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
                       </div>
-                    <span class="close">&times;</span>
-                  </ul>
+                      </div>
+                        <a href="">Wedding Website</a></li>
+                      </ul>
+
+                      <div id="myModal" class="modal">
+                          <span class="close cursor" onclick="closeModal()">&times;</span>
+                          <div class="modal-content">
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">1 / 4</div>
+                              <img src="ladyssake.jpg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">2 / 4</div>
+                              <img src="songbird.jpeg" style="width:100%">
+                            </div>
+                        
+                            <div class="mySlides">
+                              <div class="numbertext">3 / 4</div>
+                              <img src="jesselees.jpg" style="width:100%">
+                            </div>
+                            
+                            <div class="mySlides">
+                              <div class="numbertext">4 / 4</div>
+                              <img src="wedding.jpg" style="width:100%">
+                            </div>
+                            
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                            <div class="caption-container">
+                              <p id="caption"></p>
+                            </div>
+                        
+                        
+                            <div class="column">
+                              <img class="demo cursor" src="ladyssake.jpg" style="width:100%" onclick="currentSlide(1)" alt="All women have a right to feel dignified, all month long.">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="songbird.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Singing Sheryl Rouse">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="jesselees.jpg" style="width:100%" onclick="currentSlide(3)" alt="Neo-Soul Rock Band THE JESSE LEES">
+                            </div>
+                            <div class="column">
+                              <img class="demo cursor" src="wedding.jpg" style="width:100%" onclick="currentSlide(4)" alt="#GIVEMESOMEMORRISON">
+                            </div>
+                          </div>
+                        </div>
                 </div>               
               </article>
            </main>
