@@ -281,9 +281,10 @@ p {
   color: #f2f2f2;
   font-size: 30px;
   padding: 8px 12px;
-  position: center;
-  top: 50%;
-  left: 50%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  right: 25%;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -350,8 +351,7 @@ img.hover-shadow {
       text-align: left;
     }
     .projects {
-      display: flex;
-      flex-direction: column;
+      display: inline;
     
     }
   }
