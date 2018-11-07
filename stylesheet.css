@@ -160,7 +160,7 @@ p {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  display: block;
+  display: inline;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -216,7 +216,7 @@ p {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
+  width: 75%;
   max-width: 1200px;
 }
 
