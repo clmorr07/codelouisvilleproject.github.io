@@ -5,6 +5,7 @@
         <title>This is the title of my page</title>
     </head>
     <body>
-        <p></p>
+        <p>Here is my project for CODE LOUISVILE. I have used HTML, CSS, and JavaScript.
+        My JavaScript is used for my hamburger responsive menu, my modal images, and my button that takes you back to the top of the page.</p>
     </body>
 </html>
